@@ -1,0 +1,76 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Linters, formatters & test caches (Ruff, Pytest, Mypy)
+.ruff_cache/
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Automation runtime data & sensitive browser profiles
+profiles/
+screenshots/
+logs/
+*.log
+
+# Sensitive credentials & environment files
+.env
+.env.*
+!*.env.example
+*.local
+account*.txt
+cards*.txt
+# Uncomment below if you do not want your personal card details/accounts in config.json tracked:
+# config.json
+
+# Playwright & Browser artifacts
+.playwright/
+test-results/
+
+# Operating System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+[Dd]esktop.ini
+
+# IDE / Editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
